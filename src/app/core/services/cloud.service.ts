@@ -26,10 +26,8 @@ export class CloudService implements OnDestroy {
     return onSnapshot(this.getRef(ref), (querySnapshot) => {
       if (ref === 'channels') {
         this.channels = querySnapshot.docs.map((doc) => doc.data());
-        console.log(this.channels);
       } else if (ref === 'members') {
         this.members = querySnapshot.docs.map((doc) => doc.data());
-        console.log(this.members);
       }
     });
   }
