@@ -257,12 +257,12 @@ export class ChannelService implements OnDestroy {
         updatedAt: now.toISOString(),
         memberIds: [],
       };
-
       const channelsCollection = collection(this.firestore, 'channels');
       const docRef = await addDoc(channelsCollection, newChannelData);
 
       await updateDoc(docRef, {
         channelId: docRef.id,
+        memberIds: arrayUnion(createdBy),
       });
 
       // Create a local Channel object
