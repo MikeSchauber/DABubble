@@ -1,4 +1,4 @@
-Da Bubble Gr
+Da Bubble 
 Dieses Projekt ist eine Chat- und Messenger-App, die sich an beliebten Plattformen wie Slack oder Discord orientiert. Sie wurde von einem vierköpfigen Entwicklerteam erstellt und bietet eine benutzerfreundliche Oberfläche für Kommunikation und Zusammenarbeit.
 
 Features
