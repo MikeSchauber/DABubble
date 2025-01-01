@@ -32,7 +32,7 @@
           </svg>
         </button>
         }
-      }
+        }
 
       </div>
     </li>
@@ -70,15 +70,15 @@
     <!-- Dropdown für Benutzerliste -->
     <div class="dropdown-container" *ngIf="isDropdownOpen">
       <ul class="user-list" *ngIf="(filteredUsers$ | async)?.length! > 0; else noUsersMessage">
-        <li *ngFor="let user of (filteredUsers$ | async)">
+        <li *ngFor="let user of (filteredUsers$ | async)" (click)="toggleUserSelection(user.publicUserId)">
           <div class="user-details">
             <img [src]="user.avatarUrl || '/assets/default-avatar.png'" alt="{{ user.displayName }}"
               class="user-avatar" />
             <span>{{ user.displayName }}</span>
           </div>
           <div class="checkbox-container">
-            <input type="checkbox" [checked]="selectedUserIds.has(user.publicUserId)" (click)="$event.stopPropagation()"
-              (change)="toggleUserSelection(user.publicUserId)" />
+            <input type="checkbox" readonly [checked]="selectedUserIds.has(user.publicUserId)"
+             />
           </div>
         </li>
       </ul>

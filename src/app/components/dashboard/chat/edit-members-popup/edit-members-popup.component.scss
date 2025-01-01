@@ -331,10 +331,10 @@
   padding: 10px 20px;
   list-style: none;
   border: 1px solid gray;
-  border-radius: 30px;
+  border-radius: 15px;
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.12);
   background-color: #fff;
-  width: 300px;
+  width: 100%;
   z-index: 10;
   max-height: 350px;
 
@@ -345,7 +345,7 @@
     justify-content: space-between;
     padding: 10px 15px;
     margin-bottom: 10px;
-    border-radius: 8px;
+    border-radius: 30px;
     cursor: pointer;
     font-size: 16px;
     font-weight: 400;
@@ -353,7 +353,6 @@
 
     &:hover {
       background-color: #eceefe;
-      border-radius: 40px;
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     }
 
@@ -453,10 +452,6 @@
 
   .edit-btn {
     margin-right: 5px !important;
-  }
-
-  .user-list {
-    width: 250px;
   }
 
   .button-container {

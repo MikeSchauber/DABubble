@@ -255,6 +255,10 @@
     border-color: #797ef3;
   }
 
+  p {
+    word-break: break-word;
+  }
+
   .edit-header {
     width: 100%;
     display: flex;
