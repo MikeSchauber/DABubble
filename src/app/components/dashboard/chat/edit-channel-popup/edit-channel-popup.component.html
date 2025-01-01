@@ -23,6 +23,7 @@
 				<p class="current-channel">#
 					{{ channelName }}</p>
 			</div>
+			@if ((currentChannel$ | async)?.name != "Welcome Channel") {
 			<button class="edit-btn" (click)="toggleEditChannelMode()">
 				<div class="desktop-view">Bearbeiten</div>
 				<div class="mobile-view">
@@ -40,6 +41,8 @@
 					</svg>
 				</div>
 			</button>
+			}
+
 		</div>
 
 		<!-- Edit Mode for Channel -->
@@ -62,6 +65,7 @@
 		<div class="description-section" *ngIf="!isEditDescriptionMode">
 			<div class="edit-header">
 				<label class="label">Beschreibung</label>
+				@if ((currentChannel$ | async)?.name != "Welcome Channel") {
 				<button class="edit-btn" (click)="toggleEditDescriptionMode()">
 					<div class="desktop-view">Bearbeiten</div>
 					<div class="mobile-view">
@@ -79,13 +83,16 @@
 						</svg>
 					</div>
 				</button>
+				}
 			</div>
 			<p class="description">{{ description }}</p>
+			@if ((currentChannel$ | async)?.name != "Welcome Channel") {
 			<hr class="divider" />
 			<div class="edit-createdBy">
 				<label class="label">Erstellt von</label>
 				<span>{{ (getChannelWithCreator$ | async)?.creatorName }}</span>
 			</div>
+			}
 		</div>
 
 		<!-- Edit Mode for Description -->

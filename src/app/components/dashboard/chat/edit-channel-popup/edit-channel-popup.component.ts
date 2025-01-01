@@ -19,7 +19,7 @@ import {
   doc,
   docData,
 } from '@angular/fire/firestore';
-import { UserService } from '../../../../core/services/user.service';
+
 import { MemberService } from '../../../../core/services/member.service';
 import { ChannelService } from '../../../../core/services/channel.service';
 import { InfoFlyerService } from '../../../../core/services/info-flyer.service';
