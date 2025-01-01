@@ -668,39 +668,11 @@ export class DummyDataService {
       lastThreadMessage: new Date('2024-11-17T00:10:00Z'),
       reactions: [
         {
-          emoji: '🚀',
-          userIds: [
-            'A5SvMpvvRniMIuh6wpv7',
-            'B78WxLhjM5vFnQP2Nort',
-            'C89RtYknQ1wFvGH7Jipo',
-          ],
-        },
-        {
-          emoji: '🌟',
-          userIds: ['D34YrNmoK2wFjLM8Opqr'],
-        },
-        {
-          emoji: '🙂',
-          userIds: ['DWFo4OWNuAxJ7IAlqLEl', '0IBkc05KwFZ6URDgZ28v'],
-        },
-        {
           emoji: '😊',
           userIds: ['20aHBf6jjiYESKjTY4ER', 'TLYFvhadjakBvpVgtxvl'],
         },
         {
           emoji: '😎',
-          userIds: ['20aHBf6jjiYESKjTY4ER', 'TLYFvhadjakBvpVgtxvl'],
-        },
-        {
-          emoji: '🤖',
-          userIds: ['20aHBf6jjiYESKjTY4ER', 'TLYFvhadjakBvpVgtxvl'],
-        },
-        {
-          emoji: '🤓',
-          userIds: ['20aHBf6jjiYESKjTY4ER', 'TLYFvhadjakBvpVgtxvl'],
-        },
-        {
-          emoji: '😺',
           userIds: ['20aHBf6jjiYESKjTY4ER', 'TLYFvhadjakBvpVgtxvl'],
         },
       ],
@@ -714,18 +686,6 @@ export class DummyDataService {
       threadMessageCount: 1,
       lastThreadMessage: new Date('2024-11-18T00:10:00Z'),
       reactions: [
-        {
-          emoji: '🚀',
-          userIds: [
-            'DWFo4OWNuAxJ7IAlqLEl',
-            'B78WxLhjM5vFnQP2Nort',
-            '0IBkc05KwFZ6URDgZ28v',
-          ],
-        },
-        {
-          emoji: '🌟',
-          userIds: ['D34YrNmoK2wFjLM8Opqr'],
-        },
         {
           emoji: '😊',
           userIds: ['20aHBf6jjiYESKjTY4ER', 'TLYFvhadjakBvpVgtxvl'],
@@ -871,24 +831,8 @@ export class DummyDataService {
 
       reactions: [
         {
-          emoji: '🚀',
-          userIds: [
-            'TLYFvhadjakBvpVgtxvl',
-            '20aHBf6jjiYESKjTY4ER',
-            '0IBkc05KwFZ6URDgZ28v',
-          ],
-        },
-        {
-          emoji: '🌟',
-          userIds: ['D34YrNmoK2wFjLM8Opqr'],
-        },
-        {
           emoji: '👍',
           userIds: ['DWFo4OWNuAxJ7IAlqLEl', 'B78WxLhjM5vFnQP2Nort'],
-        },
-        {
-          emoji: '🎅',
-          userIds: ['A5SvMpvvRniMIuh6wpv7', 'C89RtYknQ1wFvGH7Jipo'],
         },
       ],
     },

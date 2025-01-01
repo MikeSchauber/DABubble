@@ -138,7 +138,7 @@ export class EditChannelPopupComponent implements OnInit, OnDestroy {
           );
           return {
             channel,
-            creatorName: creator?.displayName || 'Unknown User',
+            creatorName: creator?.displayName || 'Community-Mitglied',
           };
         })
       );
