@@ -1,5 +1,5 @@
 Da Bubble 
-Dieses Projekt ist eine Chat- und Messenger-App, die sich an beliebten Plattformen wie Slack oder Discord orientiert. Sie wurde von einem vierköpfigen Entwicklerteam erstellt und bietet eine benutzerfreundliche Oberfläche für Kommunikation und Zusammenarbeit.
+Dieses Projekt ist eine Chat- und Messenger-App, die sich an beliebten Plattformen wie Slack oder Discord orientiert. Sie wurde von einem dreiköpfigem Entwicklerteam erstellt und bietet eine benutzerfreundliche Oberfläche für Kommunikation und Zusammenarbeit.
 
 Features
 Echtzeit-Chat mit Firebase als Backend
