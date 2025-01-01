@@ -21,7 +21,7 @@ import { AuthStyleService } from '../../../core/services/auth-style.service';
 })
 export class RegisterComponent {
   profileForm = new FormGroup({
-    name: new FormControl('', Validators.required),
+    name: new FormControl('', [Validators.required, Validators.maxLength(30)]),
     email: new FormControl('', [Validators.required, Validators.email]),
     password: new FormControl('', [
       Validators.required,
